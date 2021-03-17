@@ -1,12 +1,12 @@
-import Navbar from './Partial/Navbar';
+import Header from './Partial/Header';
 import Footer from './Partial/Footer';
 import Routers from './Router/Routers';
 
 function App() {
   return (
-    <div className="App">        
+    <div className="App">
         <main>          
-          <Navbar/>
+          <Header/>
               <Routers/>
           <Footer/>            
         </main>
